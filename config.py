@@ -33,26 +33,26 @@ ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ec99cb6dba229bd984537.jpg")
 PM_PIC = getenv("PM_PIC", "https://graph.org/file/936ef33023a77fa9a6813.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
-API_HASH = getenv("API_HASH", "34efb38c74d5e6b25d1bb6234396a8af")
-API_ID = getenv("API_ID", "23129036")
+API_HASH = getenv("API_HASH", "e118fcaad4259eee1733c4271044240d")
+API_ID = getenv("API_ID", "21338586")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "4.0.0@main"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
-BOT_TOKEN = getenv("BOT_TOKEN", "none")
+BOT_TOKEN = getenv("BOT_TOKEN", "7185684182:AAHH-d3n8eyWBWJTqDf5_GJmAEXPCDQ8F2Q")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
-CHANNEL = getenv("CHANNEL", "Japanese_Userbot")
+CHANNEL = getenv("CHANNEL", "")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
-DB_URL = getenv("DATABASE_URL", "")
+DB_URL = getenv("DATABASE_URL", "mongodb+srv://vaibhavraut012:nikhil123@cluster0.ohkhwlk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
-GROUP = getenv("GROUP", "Japanese_Userbot_Support")
+GROUP = getenv("GROUP", "khjuhyg")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 REPO_URL = getenv("REPO_URL", "https://github.com/Team-Japanese/Japanese-X-Userbot")
 MONGO_URL = getenv("MONGO_URL", "")
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "1BVtsOMgBuz1X92_2EruG_ozaouw4gj8uW7yS2iqRHXXkKk2TVJxsZBanMsSnojrybA3k-BnixTZ79aSoel6cFzvWGKbLJlmzxZRC45CgBDphBT5jUqKGkvObT8N7-OU5fkBYTPlnqvivN3d39XbAdCKgdhxzRZe0fm5R1OP1pNuWNkWfzLmG0x4RhVPot0nVwrXunurstYpJtaq7NCCBNKeB4attDvn6SaOIidUyngvj5NCb13Knt0bP3-iJ9Cf_u98nkWoJ_BqQup_3xu7j3oFtxNqnnCocJeM1RYmeT8Biz9BNIwtISpmpK1zY1Pgn6yWDrhKCtVS96aPFGJgb2kAAqjpGtuM=")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
@@ -66,7 +66,7 @@ SUDOS = os.getenv("SUDO_USERS", None)
 SUDO_USERS = []
 
 if SUDOS:
-    sudos = str(SUDOS).split(" ")
+    sudos = str(SUDOS).split("7015501852")
     for sudo_id in sudos:
         try:
             SUDO_USERS.append(int(sudo_id))
@@ -74,7 +74,7 @@ if SUDOS:
             print(f"Warning: Invalid user ID '{sudo_id}' in SUDO_USERS environment variable.")
             continue
             
-OWNER_ID = os.getenv("OWNER_ID", "")
+OWNER_ID = os.getenv("OWNER_ID", "7015501852")
 
 SUDO_USERS.append(OWNER_ID)
 SUDO_USERS.extend(MASTERS)
